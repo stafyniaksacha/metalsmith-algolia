@@ -1,11 +1,11 @@
-- [Installation](#Installation)
-- [Usage](#Usage)
-  - [Javascript API](#Javascript-API)
-  - [Templates metadata](#Templates-metadata)
-  - [Indexed document](#Indexed-document)
-- [Customize indexed documents](#Customize-indexed-documents)
-- [Options reference](#Options-reference)
-- [Todolist](#Todolist)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Javascript API](#javascript-api)
+  - [Templates metadata](#templates-metadata)
+  - [Indexed document](#indexed-document)
+- [Customize indexed documents](#customize-indexed-documents)
+- [Options reference](#options-reference)
+- [Todolist](#todolist)
 
 # metalsmith-algolia
 
