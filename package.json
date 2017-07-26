@@ -1,0 +1,31 @@
+{
+  "name": "metalsmith-algolia",
+  "version": "0.1.0",
+  "description": "Indexing utility for referencing metalsmith content to Algolia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stafyniaksacha/metalsmith-algolia.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "algolia",
+    "search",
+    "engine",
+    "real-time"
+  ],
+  "author": "Sacha STAFYNIAK <sacha.st@live.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stafyniaksacha/metalsmith-algolia/issues"
+  },
+  "homepage": "https://github.com/stafyniaksacha/metalsmith-algolia#readme",
+  "dependencies": {
+    "algoliasearch": "^3.24.3",
+    "bluebird": "^3.5.0",
+    "debug": "^2.6.8"
+  }
+}
