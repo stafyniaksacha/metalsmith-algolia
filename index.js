@@ -1,9 +1,11 @@
 const algoliasearch = require('algoliasearch')
 const debug = require('debug')('metalsmith-algoliasearch')
 const Bluebird = require('bluebird')
+const micromatch = require('micromatch')
 
 module.exports = function(options) {
   options = options || {}
+  options.pattern = options.pattern || ['**/*']
 
   for (let parameter of ['projectId', 'privateKey', 'index']) {
     if (!options.hasOwnProperty(parameter)) {
@@ -43,7 +45,7 @@ module.exports = function(options) {
         let indexed = 0
 
         for (let file in files) {
-          if (files[file].algolia !== true) {
+          if (!(micromatch.all(file, options.pattern))) {
             continue
           }
 
