@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-algolia",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Indexing utility for referencing metalsmith content to Algolia",
   "main": "index.js",
   "scripts": {
