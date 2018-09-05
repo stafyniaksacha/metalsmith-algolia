@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-algolia",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Indexing utility for referencing metalsmith content to Algolia",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "algoliasearch": "^3.24.3",
     "bluebird": "^3.5.0",
-    "debug": "^2.6.8"
+    "debug": "^2.6.8",
+    "micromatch": "^3.1.0"
   }
 }

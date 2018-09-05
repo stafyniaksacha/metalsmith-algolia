@@ -125,10 +125,9 @@ This time, the generated document will look like:
 | `index` |  | *(required)** Algolia index |
 | `clearIndex` | false | Clear Algolia index before indexing new documents |
 | `fileParser` | null | Function reference to a custom handler for building documents |
+| `pattern` | **/\* | Glob pattern to match input files against. Can be an array or a single string |
 
 > *hint: metalsmith-algolia use `debug`*
-
-## Options reference
 
 ## Todolist
 
